@@ -6,6 +6,7 @@ import Register from './Pages/Register';
 import Footer from './components/Shared/Footer/Footer';
 import Dashboard from './Pages/Dashboard';
 import RequireAuth from './components/Shared/RequireAuth';
+import Form from './Pages/Form';
 
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
         
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
+        <Route path='/form' element={<Form></Form>}></Route>
+        
      
       </Routes>
 
